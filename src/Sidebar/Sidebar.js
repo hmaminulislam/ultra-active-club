@@ -29,27 +29,27 @@ const Sidebar = ({minute}) => {
                 <div className='d-flex align-items-center justify-content-center'>
                     <img className='me-3' src="https://media.istockphoto.com/photos/portrait-of-handsome-smiling-young-man-with-crossed-arms-picture-id1200677760?k=20&m=1200677760&s=612x612&w=0&h=JCqytPoHb6bQqU9bq6gsWT2EX1G5chlW5aNK81Kh4Lg=" alt="" />
                     <div>
-                        <h5 className='text-primary'>Shakib Al Hasan</h5>
+                        <h5 className='text-success'>Shakib Al Hasan</h5>
                         <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon>
                         <span className='ms-2'>Dhaka, Bangladesh</span>
                     </div>
                 </div>
                 <div className='award d-flex justify-content-evenly text-center my-4 py-3'>
                     <div>
-                        <h4 className='text-second'>90</h4>
+                        <h4 className='text-red'>90</h4>
                         <span>Participate</span>
                     </div>
                     <div>
-                        <h4 className='text-second'>55</h4>
+                        <h4 className='text-red'>55</h4>
                         <span>Award</span>
                     </div>
                     <div>
-                        <h4 className='text-second'>35</h4>
+                        <h4 className='text-red'>35</h4>
                         <span>Lost</span>
                     </div>
                 </div>
                 <div>
-                    <h5 className='text-center'>Add A Break</h5>
+                    <h5 className='text-center add-break-title'>Add A Break</h5>
                     <div className='break'>
                         <button onClick={(e) => addBreakBtnHandle(e.target.innerText)}>10</button>
                         <button onClick={(e) => addBreakBtnHandle(e.target.innerText)}>20</button>
@@ -59,7 +59,7 @@ const Sidebar = ({minute}) => {
                     </div>
                 </div>
                 <div className='mt-4 mx-3'>
-                    <h5 className='text-center text-primary mb-3'>Exercise Details</h5>
+                    <h5 className='text-center mb-3'>Exercise Details</h5>
                     <h6 className='exercise-time'>Exercise time: {minute} Minutes</h6>
                     <h6 className='break-time'>Break time: {breakTime} Minutes</h6>
                     <button onClick={notify} className='add-to-list-btn'>Activity Completed</button>

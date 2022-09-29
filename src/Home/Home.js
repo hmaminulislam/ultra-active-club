@@ -28,8 +28,8 @@ const Home = () => {
             <div className="home-container">
                 <div className="sports-container">
                     <div className="logo">
-                        <FontAwesomeIcon icon={faVolleyball} className="logo-icon text-primary"></FontAwesomeIcon>
-                        <span className='logo-text text-primary'>Pro Sports Club</span>
+                        <FontAwesomeIcon icon={faVolleyball} className="logo-icon"></FontAwesomeIcon>
+                        <span className='logo-text'>Pro Sports Club</span>
                     </div>
                     <div className="sports">
                         <h4>Select today’s exercise</h4>

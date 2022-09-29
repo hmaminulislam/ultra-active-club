@@ -9,11 +9,13 @@
 .logo-icon {
     font-size: 30px;
     margin-right: 10px;
+    color: #02B290;
 }
 .logo-text {
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
+    color: #02B290;
 }
 .sports h4 {
     margin: 40px 0;
