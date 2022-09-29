@@ -1,10 +1,23 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot} from '@fortawesome/free-solid-svg-icons';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Sidebar.css'
+import { getLocalDb, setLocalDb } from '../utilities/fakeDb';
 
 const Sidebar = ({minute}) => {
     const [breakTime, setBreakTime] = useState(0);
+
+    useEffect( () => {
+        const getStored = getLocalDb();
+        if(getStored) {
+            setBreakTime(getStored)
+        }
+    }, [breakTime])
+
+    const addBreakBtnHandle = (minute) => {
+        setBreakTime(minute)
+        setLocalDb(minute)
+    }
 
     return (
         <div>
@@ -34,11 +47,11 @@ const Sidebar = ({minute}) => {
                 <div>
                     <h5 className='text-center'>Add A Break</h5>
                     <div className='break'>
-                        <button onClick={() => setBreakTime(10)}>10</button>
-                        <button onClick={() => setBreakTime(20)}>20</button>
-                        <button onClick={() => setBreakTime(30)}>30</button>
-                        <button onClick={() => setBreakTime(40)}>40</button>
-                        <button onClick={() => setBreakTime(50)}>50</button>
+                        <button onClick={(e) => addBreakBtnHandle(e.target.innerText)}>10</button>
+                        <button onClick={(e) => addBreakBtnHandle(e.target.innerText)}>20</button>
+                        <button onClick={(e) => addBreakBtnHandle(e.target.innerText)}>30</button>
+                        <button onClick={(e) => addBreakBtnHandle(e.target.innerText)}>40</button>
+                        <button onClick={(e) => addBreakBtnHandle(e.target.innerText)}>50</button>
                     </div>
                 </div>
                 <div className='mt-5 mx-3'>
