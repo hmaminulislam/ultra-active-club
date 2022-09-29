@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import './Home.css';
 import Sport from '../Sport/Sport';
 import Sidebar from '../Sidebar/Sidebar';
+import Question from '../Question/Question';
 
 
 const Home = () => {
@@ -38,6 +39,7 @@ const Home = () => {
                             }
                         </div>
                     </div>
+                    <Question></Question>
                 </div>
                 <div className="side-bar">
                     <Sidebar minute={minute}></Sidebar>

@@ -58,8 +58,8 @@ const Sidebar = ({minute}) => {
                         <button onClick={(e) => addBreakBtnHandle(e.target.innerText)}>50</button>
                     </div>
                 </div>
-                <div className='mt-5 mx-3'>
-                    <h5 className='text-center'>Exercise Details</h5>
+                <div className='mt-4 mx-3'>
+                    <h5 className='text-center text-primary mb-3'>Exercise Details</h5>
                     <h6 className='exercise-time'>Exercise time: {minute} Minutes</h6>
                     <h6 className='break-time'>Break time: {breakTime} Minutes</h6>
                     <button onClick={notify} className='add-to-list-btn'>Activity Completed</button>
