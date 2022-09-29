@@ -3,6 +3,8 @@ import { faLocationDot} from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import './Sidebar.css'
 import { getLocalDb, setLocalDb } from '../utilities/fakeDb';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Sidebar = ({minute}) => {
     const [breakTime, setBreakTime] = useState(0);
@@ -19,9 +21,11 @@ const Sidebar = ({minute}) => {
         setLocalDb(minute)
     }
 
+    const notify = () => toast("Great!");
+
     return (
-        <div>
-            <div className="profile-info mt-4">
+        <div className='sidebar-info mt-4'>
+            <div>
                 <div className='d-flex align-items-center justify-content-center'>
                     <img className='me-3' src="https://media.istockphoto.com/photos/portrait-of-handsome-smiling-young-man-with-crossed-arms-picture-id1200677760?k=20&m=1200677760&s=612x612&w=0&h=JCqytPoHb6bQqU9bq6gsWT2EX1G5chlW5aNK81Kh4Lg=" alt="" />
                     <div>
@@ -55,10 +59,11 @@ const Sidebar = ({minute}) => {
                     </div>
                 </div>
                 <div className='mt-5 mx-3'>
-                    <h5>Exercise Details</h5>
-                    <h6>Exercise time: {minute} Minutes</h6>
-                    <h6>Break time: {breakTime} Minutes</h6>
-                    <button className='add-to-list-btn'>Activity Completed</button>
+                    <h5 className='text-center'>Exercise Details</h5>
+                    <h6 className='exercise-time'>Exercise time: {minute} Minutes</h6>
+                    <h6 className='break-time'>Break time: {breakTime} Minutes</h6>
+                    <button onClick={notify} className='add-to-list-btn'>Activity Completed</button>
+                    <ToastContainer></ToastContainer>
                 </div>
             </div>
         </div>

@@ -1,11 +1,14 @@
-
-.profile-info img {
+.sidebar-info {
+    position: sticky;
+    top: 40px;
+}
+.sidebar-info img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
 }
 .award {
-    background-color: #f6fdf6d6;
+    background-color: #f2ffece8
 }
 .break {
     text-align: center;
@@ -20,4 +23,16 @@
     height: 50px;
     width: 50px;
     color: white;
+}
+.exercise-time {
+    background-color: #dfdbdbcb;
+    padding: 13px;
+    border-radius: 10px;
+}
+.break-time {
+    background-color: #dfdbdbcb;
+    padding: 13px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
