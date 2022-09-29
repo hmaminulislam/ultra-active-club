@@ -33,7 +33,7 @@ const Home = () => {
                     </div>
                     <div className="sports">
                         <h4>Select today’s exercise</h4>
-                        <div className='row row-cols-1 row-cols-md-3 g-4'>
+                        <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-sm-2 g-4'>
                             {
                             sports.map(sport => <Sport sport={sport} key={sport.id} addListBtnHandle={addListBtnHandle}></Sport>)
                             }

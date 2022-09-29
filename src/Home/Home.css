@@ -22,3 +22,17 @@
     width: 25%;
     background-color: #e4f5dc;
 }
+
+@media screen and (max-width: 768px) {
+    .home-container {
+            flex-direction: column;
+        }
+    .sports-container {
+            width: 100%;
+            padding: 0 20px;
+            margin-top: 20px;
+        }
+    .side-bar {
+            width: 100%;
+        }
+}

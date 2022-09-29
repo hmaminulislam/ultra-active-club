@@ -1,6 +1,7 @@
 .sidebar-info {
     position: sticky;
     top: 40px;
+    padding-bottom: 20px;
 }
 .sidebar-info img {
     width: 60px;
