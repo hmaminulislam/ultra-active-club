@@ -4,41 +4,47 @@
     "minute": 47,
     "img": "https://images.unsplash.com/photo-1626248801379-51a0748a5f96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     "name": "Football",
-    "age": 25
+    "age": 25,
+    "body": "Football, or association football or soccer, Game in which two 11-member teams try to propel a ball into the opposing team's goal, using any part of the body except the hands and arms. Only the goalkeeper, when positioned within the penalty area in front of the goal, may use hands and arms."
   },
   {
     "id": "6334e7de1b2c7e1dca7afa0f",
     "minute": 39,
     "img": "https://images.unsplash.com/photo-1574142233428-93b8c48af5ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     "name": "Basketball",
-    "age": 18
+    "age": 18,
+    "body": "Basketball is a game played between two teams of five players each on a rectangular court, usually indoors. Each team tries to score by tossing the ball through the opponent's goal, an elevated horizontal hoop and net called a basket."
   },
   {
     "id": "6334e7de308fc1d2dca7421b",
     "minute": 37,
     "img": "https://images.unsplash.com/photo-1643593595469-2d8d592ac6ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     "name": "Cricket",
-    "age": 28
+    "age": 28,
+    "body": "Cricket is played by two teams of 11, with one side taking a turn to bat a ball and score runs, while the other team will bowl and field the ball to restrict the opposition from scoring. The main objective in cricket is to score as many runs as possible against the opponent."
   },
   {
     "id": "6334e7de69ac1ae08cd5b516",
     "minute": 33,
     "img": "https://images.unsplash.com/photo-1600965962102-9d260a71890d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     "name": "Swimming",
-    "age": 20
+    "age": 20,
+    "body": "Swimming, in recreation and sports, the propulsion of the body through water by combined arm and leg motions and the natural flotation of the body. Swimming as an exercise is popular as an all-around body developer and is particularly useful in therapy and as exercise for physically handicapped persons."
   },
   {
     "id": "6334e7de8017db3fd00e1511",
     "minute": 43,
-    "img": "https://images.unsplash.com/photo-1510766461678-4a8420db04d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=806&q=80",
+    "img": "https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     "name": "Race cycle",
-    "age": 20
+    "age": 20,
+    "body": "A cycling team is made up of a 'Team Leader', the rider chosen to try and win the race. And 'Domestiques', being the other riders who will do whatever's needed to help the team leader win, including getting drink bottles and food for them and even giving their wheel to the team leader if they get a puncture."
   },
   {
     "id": "6334e7def9dc7924e9f62d5c",
     "minute": 34,
     "img": "https://images.unsplash.com/photo-1646140715711-d118585579b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     "name": "Betmenton",
-    "age": 24
+    "age": 24,
+    "body": "Badminton is a racket sport played by either two opposing players (singles) or two opposing pairs (doubles), who take positions on opposite halves of a rectangular court that is divided by a net."
   }
 ]

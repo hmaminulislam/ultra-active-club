@@ -1,0 +1,24 @@
+.home-container {
+    display: flex;
+}
+.sports-container {
+    width: 75%;
+    padding: 0 80px;
+    margin-top: 80px;
+}
+.logo-icon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.logo-text {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.sports h4 {
+    margin: 40px 0;
+}
+.side-bar {
+    width: 25%;
+    background-color: #e4f5dc;
+}

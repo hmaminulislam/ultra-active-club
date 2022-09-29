@@ -1,0 +1,23 @@
+
+.profile-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.award {
+    background-color: #f6fdf6d6;
+}
+.break {
+    text-align: center;
+    margin-top: 25px;
+}
+.break button {
+    border: 0;
+    border-radius: 50%;
+    margin-right: 4px;
+    background-color: rgb(177, 177, 177);
+    line-height: 10px;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
